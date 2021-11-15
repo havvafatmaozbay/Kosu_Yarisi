@@ -24,6 +24,7 @@
     <ProjectGuid>{63005078-7b80-4934-b862-29205757cfa6}</ProjectGuid>
     <RootNamespace>struxtile</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>kosuyarisi</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

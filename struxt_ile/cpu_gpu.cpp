@@ -67,8 +67,14 @@ void cpu_gpu_set_numbers(Racer* p_racer)
 	
 	for (int i = 0 ;i < p_racer->nc; i++ )
 	{
-
 		cpu_Location[i] = cpu_int100Speed[i] * 1;
+		/*do
+		{
+			int a = 0;
+			cpu_Location[i] = cpu_int100Speed[i] * (a + 1);
+			a++;
+
+		} while (cpu_Location[i] == 100);*/
 		
 	}
 	
